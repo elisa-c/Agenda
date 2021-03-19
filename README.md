@@ -1,5 +1,5 @@
 ## formação ios
-### webservice e sincronização offline
+### integrações com api
 
 objetivos:
 - aprender a utilizar o CocoaPods como gerenciador de dependências
