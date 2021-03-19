@@ -1,5 +1,5 @@
 ## formação ios
-### integrações com api
+### integrações com APIs
 
 objetivos:
 - aprender a utilizar o CocoaPods como gerenciador de dependências
