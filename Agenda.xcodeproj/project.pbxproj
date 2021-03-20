@@ -19,6 +19,8 @@
 		65F277D520068C1900A8F1BF /* icon_caelum.png in Resources */ = {isa = PBXBuildFile; fileRef = 65F277D420068C1900A8F1BF /* icon_caelum.png */; };
 		65F277D92006901C00A8F1BF /* Pino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F277D82006901C00A8F1BF /* Pino.swift */; };
 		66C22DEA260568EB006A789B /* AlunoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C22DE9260568EB006A789B /* AlunoAPI.swift */; };
+		66C22DED26058D73006A789B /* Repositorio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C22DEC26058D73006A789B /* Repositorio.swift */; };
+		66C22DF026058DEC006A789B /* AlunoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C22DEF26058DEC006A789B /* AlunoDAO.swift */; };
 		A281001A1FD5C2F700E1BDF1 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28100191FD5C2F700E1BDF1 /* ImagePicker.swift */; };
 		B911302A1FE05358002768A7 /* CalculaMediaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91130291FE05358002768A7 /* CalculaMediaAPI.swift */; };
 		B939B9B81FDAC2630084A557 /* Mensagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B939B9B71FDAC2630084A557 /* Mensagem.swift */; };
@@ -45,6 +47,8 @@
 		65F277D420068C1900A8F1BF /* icon_caelum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_caelum.png; sourceTree = "<group>"; };
 		65F277D82006901C00A8F1BF /* Pino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pino.swift; sourceTree = "<group>"; };
 		66C22DE9260568EB006A789B /* AlunoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoAPI.swift; sourceTree = "<group>"; };
+		66C22DEC26058D73006A789B /* Repositorio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositorio.swift; sourceTree = "<group>"; };
+		66C22DEF26058DEC006A789B /* AlunoDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoDAO.swift; sourceTree = "<group>"; };
 		A28100191FD5C2F700E1BDF1 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		B91130291FE05358002768A7 /* CalculaMediaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaMediaAPI.swift; sourceTree = "<group>"; };
 		B939B9B71FDAC2630084A557 /* Mensagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensagem.swift; sourceTree = "<group>"; };
@@ -176,6 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				66C22DE9260568EB006A789B /* AlunoAPI.swift */,
+				66C22DEC26058D73006A789B /* Repositorio.swift */,
+				66C22DEF26058DEC006A789B /* AlunoDAO.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -347,6 +353,7 @@
 				03AA176D1FC8515A003CB2B8 /* AlunoViewController.swift in Sources */,
 				66C22DEA260568EB006A789B /* AlunoAPI.swift in Sources */,
 				65F277D92006901C00A8F1BF /* Pino.swift in Sources */,
+				66C22DF026058DEC006A789B /* AlunoDAO.swift in Sources */,
 				03AA17661FC84353003CB2B8 /* HomeTableViewController.swift in Sources */,
 				03AA17561FC84154003CB2B8 /* Agenda.xcdatamodeld in Sources */,
 				A281001A1FD5C2F700E1BDF1 /* ImagePicker.swift in Sources */,
@@ -355,6 +362,7 @@
 				B9518EFC1FD9BCEB00EBAFA5 /* MenuOpcoesAlunos.swift in Sources */,
 				B939B9B81FDAC2630084A557 /* Mensagem.swift in Sources */,
 				B9D565A71FE14ECA00BDA536 /* Notificacoes.swift in Sources */,
+				66C22DED26058D73006A789B /* Repositorio.swift in Sources */,
 				B9FFD4511FDEE6F700CEE593 /* MapaViewController.swift in Sources */,
 				03AA174E1FC84154003CB2B8 /* AppDelegate.swift in Sources */,
 				B9EA19FB1FDEBEAD00403CE0 /* Localizacao.swift in Sources */,
