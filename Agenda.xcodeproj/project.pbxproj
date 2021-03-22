@@ -20,6 +20,7 @@
 		65F277D92006901C00A8F1BF /* Pino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F277D82006901C00A8F1BF /* Pino.swift */; };
 		6695119A2609460E00AACCB2 /* LigacaoTelefonica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669511992609460E00AACCB2 /* LigacaoTelefonica.swift */; };
 		6695119D2609479400AACCB2 /* Safari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6695119C2609479400AACCB2 /* Safari.swift */; };
+		669511A026094AC500AACCB2 /* Filtro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6695119F26094AC500AACCB2 /* Filtro.swift */; };
 		66C22DEA260568EB006A789B /* AlunoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C22DE9260568EB006A789B /* AlunoAPI.swift */; };
 		66C22DED26058D73006A789B /* Repositorio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C22DEC26058D73006A789B /* Repositorio.swift */; };
 		66C22DF026058DEC006A789B /* AlunoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C22DEF26058DEC006A789B /* AlunoDAO.swift */; };
@@ -50,6 +51,7 @@
 		65F277D82006901C00A8F1BF /* Pino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pino.swift; sourceTree = "<group>"; };
 		669511992609460E00AACCB2 /* LigacaoTelefonica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigacaoTelefonica.swift; sourceTree = "<group>"; };
 		6695119C2609479400AACCB2 /* Safari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safari.swift; sourceTree = "<group>"; };
+		6695119F26094AC500AACCB2 /* Filtro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filtro.swift; sourceTree = "<group>"; };
 		66C22DE9260568EB006A789B /* AlunoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoAPI.swift; sourceTree = "<group>"; };
 		66C22DEC26058D73006A789B /* Repositorio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositorio.swift; sourceTree = "<group>"; };
 		66C22DEF26058DEC006A789B /* AlunoDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoDAO.swift; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				658B1AA72006456B006D944C /* AutenticacaoLocal.swift */,
 				669511992609460E00AACCB2 /* LigacaoTelefonica.swift */,
 				6695119C2609479400AACCB2 /* Safari.swift */,
+				6695119F26094AC500AACCB2 /* Filtro.swift */,
 			);
 			path = Componentes;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 				03AA176D1FC8515A003CB2B8 /* AlunoViewController.swift in Sources */,
 				66C22DEA260568EB006A789B /* AlunoAPI.swift in Sources */,
 				65F277D92006901C00A8F1BF /* Pino.swift in Sources */,
+				669511A026094AC500AACCB2 /* Filtro.swift in Sources */,
 				66C22DF026058DEC006A789B /* AlunoDAO.swift in Sources */,
 				03AA17661FC84353003CB2B8 /* HomeTableViewController.swift in Sources */,
 				03AA17561FC84154003CB2B8 /* Agenda.xcdatamodeld in Sources */,
