@@ -2,16 +2,29 @@
 //  Repositorio.swift
 //  Agenda
 //
-//  Created by Elisa Camillo on 19/03/21.
-//  Copyright © 2021 Alura. All rights reserved.
+//  Created by Alura Roxo on 28/02/18.
+//  Copyright © 2018 Alura. All rights reserved.
 //
 
 import UIKit
 
 class Repositorio: NSObject {
     
-    func salvaAluno(aluno: Dictionary<String, String>) {
-        AlunoAPI().salvaAlunosNoServidor(params: [aluno] )
+    func recuperaAlunos(completion:@escaping(_ listaDeAlunos:Array<Aluno>) -> Void) {
+        var alunos = AlunoDAO().recuperaAlunos()
+        if alunos.count == 0 {
+            AlunoAPI().recuperaAlunos {
+                alunos = AlunoDAO().recuperaAlunos()
+                completion(alunos)
+            }
+        }
+        else {
+            completion(alunos)
+        }
+    }
+    
+    func salvaAluno(aluno:Dictionary<String, String>) {
+        AlunoAPI().salvaAlunosNoServidor(parametros: [aluno])
         AlunoDAO().salvaAluno(dicionarioDeAluno: aluno)
     }
 

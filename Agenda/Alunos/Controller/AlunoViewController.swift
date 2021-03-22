@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import CoreData
 
 class AlunoViewController: UIViewController, ImagePickerFotoSelecionada {
     
@@ -74,21 +73,20 @@ class AlunoViewController: UIViewController, ImagePickerFotoSelecionada {
         self.present(multimidia, animated: true, completion: nil)
     }
     
-    func montaDicionarioDeParametro() -> Dictionary<String, String> {
-        
-        guard let nome = textFieldNome.text else {return [:]}
-        guard let endereco = textFieldEndereco.text else {return [:]}
-        guard let telefone = textFieldTelefone.text else {return [:]}
-        guard let site = textFieldSite.text else {return [:]}
-        guard let nota = textFieldNota.text else {return [:]}
+    func montaDicionarioDeParametros() -> Dictionary<String, String> {
+        guard let nome = textFieldNome.text else { return [:] }
+        guard let endereco = textFieldEndereco.text else { return [:] }
+        guard let telefone = textFieldTelefone.text else { return [:] }
+        guard let site = textFieldSite.text else { return [:] }
+        guard let nota = textFieldNota.text else { return [:] }
         
         let dicionario:Dictionary<String, String> = [
-            "id": String(describing: UUID()),
-            "nome": nome,
-            "endereco": endereco,
-            "telefone": telefone,
-            "site": site,
-            "nota": nota
+            "id" : String(describing: UUID()),
+            "nome" : nome,
+            "endereco" : endereco,
+            "telefone" : telefone,
+            "site" : site,
+            "nota" : nota
         ]
         
         return dicionario
@@ -115,11 +113,17 @@ class AlunoViewController: UIViewController, ImagePickerFotoSelecionada {
     }
     
     @IBAction func buttonSalvar(_ sender: UIButton) {
- 
-        
-        let json = montaDicionarioDeParametro()
-        Repositorio().salvaAluno(aluno:json)
+        let json = montaDicionarioDeParametros()
+        Repositorio().salvaAluno(aluno: json)
         navigationController?.popViewController(animated: true)
     }
     
 }
+
+
+
+
+
+
+
+
