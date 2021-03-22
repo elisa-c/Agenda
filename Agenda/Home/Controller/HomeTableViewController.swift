@@ -120,7 +120,6 @@ class HomeTableViewController: UITableViewController, UISearchBarDelegate {
         let aluno = alunos[indexPath.row]
         celula.configuraCelula(aluno)
         celula.addGestureRecognizer(longPress)
-        
         return celula
     }
     
